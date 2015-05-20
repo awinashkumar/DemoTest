@@ -118,32 +118,8 @@ public class MainActivity extends Activity implements OnClickListener {
 //				return true;
 //			}
 //		});
- 
-    
-//        AlertDialog helloAlert = new AlertDialog.Builder(this).create();
-//        helloAlert.setTitle("Half Dozen Hello Worlds Demo");
-//        helloAlert.setMessage("Hello World");
-//        helloAlert.setButton(DialogInterface.BUTTON_POSITIVE,"Close", new DialogInterface.OnClickListener() {
-//			@Override
-//			public void onClick(DialogInterface arg0, int arg1) {}
-//		});
-//        helloAlert.setButton(DialogInterface.BUTTON_NEGATIVE,"Ok", new DialogInterface.OnClickListener() {
-//			
-//			@Override
-//			public void onClick(DialogInterface dialog, int which) {
-//				// TODO Auto-generated method stub
-//				
-//			}
-//		});
-//        helloAlert.setButton(DialogInterface.BUTTON_NEUTRAL,"OK1", new DialogInterface.OnClickListener() {
-//			
-//			@Override
-//			public void onClick(DialogInterface dialog, int which) {
-//				// TODO Auto-generated method stub
-//				
-//			}
-//		});
-//        helloAlert.show();	
+     
+
      		
         //mTitle = "PERK MENU";
         mTitle = (String) getTitle();	
