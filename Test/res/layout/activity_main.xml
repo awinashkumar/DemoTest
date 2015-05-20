@@ -1,0 +1,67 @@
+<RelativeLayout 
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:orientation="horizontal">
+
+    <android.support.v4.widget.DrawerLayout    
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_p"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">  
+ 
+    <!-- The main content view -->
+ 
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- The navigation drawer -->
+ 
+    <ListView
+        android:id="@+id/drawer_list"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+</android.support.v4.widget.DrawerLayout>
+
+<!-- </LinearLayout> -->
+<LinearLayout 	android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:id="@+id/ch">
+    <Button android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/btnTime"
+        	android:text="@string/Show_time"/>    
+    <Button android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/btnDate"
+        	android:text="@string/Show_date"/>
+    <TextView 	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:id="@+id/nameLable"
+        		android:layout_margin="20dp"
+        		android:text="Your name is: "/>     
+     
+    <EditText android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter"/>
+        				
+</LinearLayout>
+
+
+<!-- 		<EditText  -->
+<!-- 			    android:id="@+id/et_monthAndYear" -->
+<!-- 			    android:layout_width="fill_parent" -->
+<!-- 			    android:layout_height="fill_parent" -->
+<!-- 			    android:layout_gravity="bottom" -->
+<!--                 android:layout_marginLeft="20dp" -->
+<!--                 android:layout_marginRight="20dp"               			    		                -->
+<!-- 	            android:hint="MM / YYYY" /> -->
+
+
+</RelativeLayout>

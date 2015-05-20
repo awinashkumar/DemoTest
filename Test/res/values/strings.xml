@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logo">Perk logo</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="Show_time">Show time</string>
+    <string name="Show_date">Show date</string>
+
+    <string-array name="PerkMenu">
+        <item>Movie Watch</item>
+        <item>Sweepstakes</item>
+        <item>Rewards</item>
+        <item>Invite Friends</item>
+        <item>EZ Points</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_activity_time">ActivityTime</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_test_fragment">TestFragment</string>
+    <string name="title_activity_ex">EXActivity</string>
+
+</resources>
